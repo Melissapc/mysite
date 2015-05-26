@@ -1,0 +1,84 @@
+
+nav li{
+
+background-color:#F9B3D1;
+
+display:inline;
+
+border:2px solid #FCDDBC;
+
+}
+
+a:link{
+color:#FF5666;
+background-color:red;
+text-decoration:none;
+}
+a:visited{
+color:orange;
+background-color:blue;
+text-decoration:none;
+}
+a:hover{
+color:#110B11;
+background-color:#19297C;
+text-decoration:underline;
+font-size:120%;
+}
+
+a:active{
+color:#;
+background-color:#CAFE48;
+
+}
+
+nav{border-bottom:1px solid #000;
+font-weight:bold;
+font-size:110%;
+letter-spacing:0.1em;
+text-align:left;
+}
+
+
+#container{ 
+background-color:#00FFFF; 
+width:80%; 
+height:90%;
+margin-left:auto;
+margin-right:auto;
+border:thin solid black;
+overflow:auto;
+}
+#header{ 
+background-color:#E36397;
+border-bottom:thin solid #2F1847;
+padding:10px;}
+
+#content{
+background-color:#E0B5C8;
+margin:0;
+overflow:hidden;
+min-height:500px;
+
+}
+body{ 
+background-image:url('http://www.emoticonswallpapers.com/background/nice/nice-background-pattern-018.gif');
+
+}
+#footer{
+background-color:#5EFC8D;
+padding:10px;
+border-top:thin solid #870058;
+
+
+nav li{
+
+background-color:#F9B3D1;
+
+display:inline;
+
+border:2px solid #FCDDBC;
+
+}
+
+}

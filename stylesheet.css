@@ -1,0 +1,129 @@
+@font-face {
+font-family:'FreakinSerious';
+src: local('FreakinSerious'),url('FreakinSerious.ttf') format('truetype');
+}
+
+h1{
+font-family:'FreakinSerious', verdana;
+font-size:60px;
+text-align:center;
+
+}
+
+
+nav li{
+font-family:'FreakinSerious', verdana;
+background-color:#F9B3D1;
+
+display:inline;
+
+border:2px solid #FCDDBC;
+
+
+}
+
+a:link{
+color:#FF5666;
+background-color:red;
+text-decoration:none;
+}
+a:visited{
+color:orange;
+background-color:blue;
+text-decoration:none;
+}
+a:hover{
+color:#110B11;
+background-color:#19297C;
+text-decoration:underline;
+font-size:120%;
+}
+
+a:active{
+color:#;
+background-color:#CAFE48;
+
+}
+
+nav{border-bottom:1px solid #000;
+font-weight:bold;
+font-size:110%;
+letter-spacing:0.1em;
+text-align:left;
+}
+
+img {
+        margin-bottom: 40px;
+    
+}
+.shadow1{
+    box-shadow: 5px 10px 20px 10px black;
+
+}
+.shadow2{
+    box-shadow: 10px 5px 20px 10px #fff5d0;
+}
+.shadow3{
+    
+    box-shadow: 20px 10px 10px 5px #1bb6ff;
+}
+.shadow4{
+    box-shadow: 30px 20px 5px 10px #5241ff;
+}
+.shadow5{
+    box-shadow: 30px 20px 5px 10px #ff21a3;
+}
+
+.frame1{
+    padding: 25px;
+    
+    background-image: linear-gradient(to right,#6fdfff,white);
+  
+}
+.frame2{
+    padding: 25px;
+    
+    background-image: radial-gradient(#9b6eff,white,black);
+    
+}
+.frame3{
+    padding: 25px;
+    
+    background-image: linear-gradient(to botton right,black,white,#ff8021);
+
+}
+.frame4{
+    background-image: linear-gradient(to right,#6a72ff,black); 
+}
+
+
+#container{ 
+background-color:#00FFFF; 
+width:80%; 
+height:90%;
+margin-left:auto;
+margin-right:auto;
+border:thin solid black;
+overflow:auto;
+}
+#header{ 
+background-color:#E36397;
+border-bottom:thin solid #2F1847;
+padding:10px;}
+
+#content{
+background-color:#E0B5C8;
+margin:0;
+overflow:hidden;
+min-height:500px;
+
+}
+body{ 
+background-image:url('http://www.emoticonswallpapers.com/background/nice/nice-background-pattern-018.gif');
+
+}
+#footer{
+background-color:#5EFC8D;
+padding:10px;
+border-top:thin solid #870058;
+}
